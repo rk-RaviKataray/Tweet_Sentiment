@@ -12,6 +12,8 @@ import pandas as pd
 import numpy as np
 import re
 import pickle
+import os
+port = int(os.environ.get(“PORT”, 5000))
 from nltk.stem.porter import PorterStemmer
 ps = PorterStemmer()
 
